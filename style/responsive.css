@@ -1,0 +1,25 @@
+@media screen and (max-width: 768px){
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .logo {
+        align-self: flex-start;
+    }
+    header {
+        background: var(--preto);
+        background-color: var(--preto);
+    }
+    header nav {
+        background-color: var(--preto);
+        padding-bottom: 15px;
+    }
+    .btn {
+        margin-top: 5px;
+        width: 300px;
+    }
+    .botoes {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

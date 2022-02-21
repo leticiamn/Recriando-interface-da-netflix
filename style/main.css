@@ -1,0 +1,121 @@
+:root {
+    --vermelho: #e50914;
+    --preto:#141414;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url(BebasNeue-Regular.eot) format('opentype');
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: var(--preto);
+    color: white;
+}
+
+header .logo {
+    height: 25px;
+    margin: 20px 40px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;  
+    background: var(--preto);
+    transition: 1s;
+    z-index:4 ;
+}
+header.transparencia {
+    background: linear-gradient(rgba(0,0,0,.90),rgba(0,0,0,.55)100%), url('/img/gilmore-girls.jpg');
+    background-size: cover;
+}
+header .container, .btn, .botoes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header nav a {
+    text-decoration: none;
+    margin-right: 10px;
+    color: #fff;
+    margin: 0 10px;
+    transition: 0.8s;
+}
+
+header nav a:hover {
+    color: #aaa;
+}
+
+/*Filme principal*/
+
+.filme-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.60),rgba(0,0,0,.70),rgba(20,20,20,1)100%), url('/img/gilmore-girls.jpg');
+    background-position: 0% 0%;
+    height: 560px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao {
+    margin: 20px 0;
+    width: 40%;
+    font-size: large;
+}
+
+.filme-principal .container {
+    margin-left: 40px;
+}
+
+.titulo {
+    font-size: 60px;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.btn img {
+    margin: 0 10px 0 0;
+}
+.btn-info {
+    background-color: rgba(100, 100, 100, 0.8);
+    color: white;
+}
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+}
+.btn-info:hover {
+    background-color: rgba(100, 100, 100, 0.6);
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+    padding: 0 1px;
+    border-radius: 4px;
+}
+.mini-titulo {
+    font-size: 22px;
+    margin: 20px 40px;
+}
