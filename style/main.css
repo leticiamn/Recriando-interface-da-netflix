@@ -30,11 +30,11 @@ header {
     top: 0;
     width: 100%;  
     background: var(--preto);
-    transition: 1s;
+    transition: 0ms;
     z-index:4 ;
 }
 header.transparencia {
-    background: linear-gradient(rgba(0,0,0,.90),rgba(0,0,0,.55)100%), url('/img/gilmore-girls.jpg');
+    background: linear-gradient(rgba(0,0,0,.90),rgba(0,0,0,.55)100%), url('../img/gilmore-girls.jpg');
     background-size: cover;
 }
 header .container, .btn, .botoes {
@@ -53,13 +53,13 @@ header nav a {
 
 header nav a:hover {
     color: #aaa;
-}
+}   
 
 /*Filme principal*/
 
 .filme-principal {
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.60),rgba(0,0,0,.70),rgba(20,20,20,1)100%), url('/img/gilmore-girls.jpg');
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.60),rgba(0,0,0,.70),rgba(20,20,20,1)100%), url('../img/gilmore-girls.jpg');
     background-position: 0% 0%;
     height: 560px;
     background-size: cover;

@@ -25,4 +25,21 @@
     header.transparencia {
         background: var(--preto);
     }
+    .titulo {
+        font-size: 40px;
+    }
+    .mb {
+        display: none;
+    }
+    .box-filme img {
+        width: 25px !important;
+    }
+
+    .main {
+        width: 100vw;
+    }
+
+    .filme-principal, header.transparencia {
+        width: 100% !important;
+    }
 }
